@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 mongoose.set('strictQuery', true)
 const dbOptions = {
-    // useUnifiedTopology: true,
   };
 let MONGOURI = process.env.MONGODB_URI
 const connectDB = async () => {
